@@ -1,0 +1,94 @@
+.inputs-login {
+    padding: 20px 15px 20px 50px;
+    border: none;
+    outline: none;
+    color: #A6A7AA;
+    width: 350px;
+    font-size: 16px;
+    background-color: #16171B;
+    border-radius: 5px;
+}
+
+.login-section {
+    background-color: #20232B;
+    color: #A6A7AA;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 10rem;
+    height: 26rem;
+    padding: 20px 20px 20px 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background: url("../../images/background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.input-content {
+    position: relative;
+    width: 100%;
+}
+
+.icon-login {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    font-size: 10px;
+    color: #ccc;
+}
+
+.required-field {
+    color: red;
+}
+
+.indicator-text {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.btn-login {
+    padding: 15px;
+    border: none;
+    width: 415px;
+    font-size: 16px;
+    background-color: #16171B;
+    border-radius: 5px;
+    color: #A6A7AA;
+    font-weight: bold;
+}
+
+.btn-login:hover {
+    fill: #16171B;
+    cursor: pointer;
+    background-color: #F3FC8A;
+    border-radius: 2px;
+    color: #16171B;
+}
+
+.welcome-message-login {
+    text-align: center;
+    font-size: 25px;
+}
+
+.welcome-slogan {
+    text-align: center;
+    font-size: 12px;
+}
+
+.indicator-forget-password {
+    color: #F3FC8A;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.indicator-forget-password:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
